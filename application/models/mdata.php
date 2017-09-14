@@ -44,4 +44,8 @@ class mdata extends CI_Model {
 	function upload_database($data){
 		$this->db->insert("data",$data);
 	}
+
+	function upload_jabatan($jabatan){
+		$this->db->insert("jabatan",$jabatan);
+	}
 }
